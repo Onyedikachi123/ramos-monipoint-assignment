@@ -1,0 +1,143 @@
+.analytics {
+    background-color: #f9f9f9;
+    border-radius: 50px;
+    padding: 100px 0;
+}
+.analytics-content-header{
+    padding-bottom: 40px;
+}
+.analytics-content-header h3 {
+    font-weight: 300;
+    font-size: 40px;
+    color: #101010;
+}
+
+.analytics-content-header p {
+    font-weight: 200;
+    color: #2d2d2d;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.analytics-chart .card {
+    padding: 7px 0 20px;
+    border-radius: 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.analytics-chart button {
+    background-color: #ffd027;
+    color: #0d0d0d;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 70px;
+}
+
+.analytics-chart .black {
+    background-color: #0d0d0d;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.analytics-chart h6 {
+    font-weight: 200;
+    padding-bottom: 30px;
+    font-size: 24px;
+    
+}
+.analytics-chart p {
+    font-weight: 100;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.user-image {
+    display: flex;
+}
+.user-image img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 26px 0 15px;
+}
+
+.user-image .card {
+    background-color: #131111;
+    border: 1px solid #2b2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    height: 150px;
+}
+
+.user-image .layer-icon{
+    color: #c8b025;
+    padding-top: 20px;
+}
+.transaction-wrapper h6{
+    font-size: 12px;
+    padding-top: 18px;
+    color: #fff;
+}
+.transaction-wrapper .card{
+    background-color: #131111;
+    border: 1px solid #2b2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    height: 150px;
+}
+
+.transaction-wrapper .card-text {
+    display: flex;
+}
+
+.transaction-wrapper h1 {
+    color: #fff;
+   
+    
+}
+
+.transaction-wrapper span {
+    color: #48c884;
+    font-size: 10px;
+    margin-top: -12px;
+    display: flex;
+}
+
+.text {
+    padding-top: 30px;
+}
+.text h3 {
+    color: #fff;
+    font-weight: 200;
+}
+
+.analytics .analytics-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.analytics-footer h6,h1,p {
+    padding: 5px 10px;
+}
+
+.analytics-footer h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.analytics-footer h6 {
+    font-size: 24px;
+}
+
+.analytics-footer p {
+    font-size: 14px;
+    font-weight: 300;
+}
+

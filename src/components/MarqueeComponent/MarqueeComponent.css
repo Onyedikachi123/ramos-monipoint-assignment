@@ -1,0 +1,152 @@
+.marquee-section h1 {
+    font-size: 6.9375rem;
+    font-weight: 300;
+    padding-top: 3rem;
+}
+.marquee-section h1 span {
+    color: #cccccc;
+}
+.analytics-service-container {
+    display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 50px;
+  }
+  
+  .analytics-stat {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .icon-circle {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width: 120px; 
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .analytics-icon {
+    color: #fff; 
+    font-size: 1rem;
+  }
+  .dashed-line {
+    position: absolute;
+    bottom: 50%; 
+    left: 0; 
+    right: 0;
+    width: 100%; 
+    border-top: 2px dashed #fe4a23; 
+    z-index: 1;
+  }
+  .analytics-info {
+    background-color: #FFD027; 
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px; 
+    height: 120px;
+    padding: 20px;
+    margin-left: -41px;
+  }
+
+  .icon-squre {
+    background-color: #fe4a23;
+  padding: 10px 15px; 
+  border-radius: 10px; 
+  position: relative;
+  z-index: 2; /
+  }
+  
+  .percentage {
+    font-size: 1.0625rem;
+    font-weight: 500;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 0.625rem;
+  }
+  
+  .analytics-service {
+    overflow: hidden;
+    position: relative;
+    background-color: #FFD027;
+    border-radius: 40px;
+    color: black;
+    font-weight: 400;
+    padding: 0px;
+    font-size: 4rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  .marquee {
+    position: relative; 
+    white-space: nowrap;
+    display: inline-block; 
+    animation: marquee 10s linear infinite;
+  }
+  
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .button-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-text {
+    flex: 1;
+    color: #505050; 
+    font-size: 14px;
+    font-weight: 200; 
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .demo-button {
+    background-color: #f2f2f2; 
+    border: none;
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    color: #333; 
+    cursor: pointer; 
+  }
+  
+  .start-button {
+    background-color: #fe4a23; 
+    border: none;
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    color: #fff; 
+    cursor: pointer; 
+  }
+  
+
+  
+  
+  

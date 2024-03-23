@@ -1,0 +1,48 @@
+.sales-statistics .statistic-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 24px 0 rgba(93,62,188,0.04);
+}
+
+/* Header styling with total profit and visitors */
+.sales-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  /* Adjust size and color to match the design */
+}
+
+.profit-icon {
+  color: #FF6384; /* Adjust the color based on the image */
+}
+
+.visitor-icon {
+  color: #4BC0C0; /* Adjust the color based on the image */
+}
+
+/* Similar styling for rate-stat and others */
+
+/* Style for the line chart */
+.line-chart {
+  position: relative; /* Adjust based on your layout */
+  height: 200px; /* Adjust based on your layout */
+}
+
+/* Style for the rate change box */
+.rate-stat {
+  background-color: #ff6384; /* Adjust the color based on the image */
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Rest of your CSS code */
