@@ -41,7 +41,7 @@ const RamosSection = () => {
           </div>
         </div>
         <div className="ramos-footer">
-          <h1>Ramos</h1>
+          <h1 className="slide-from-left">Ramos</h1>
         </div>
       
     </section>

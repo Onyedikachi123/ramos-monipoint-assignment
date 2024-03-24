@@ -11,6 +11,7 @@ import {
 const Hero = () => {
   return (
     <section className="hero">
+      
       <div className="container">
         <div className="hero-content">
           <div className="hero-icon">
@@ -21,7 +22,7 @@ const Hero = () => {
             <FontAwesomeIcon icon={faChartLine} />
             </span>
           </div>
-          <div className="hero-text">
+          <div className="hero-text ">
             <ul>
               <li>Analytics</li>
               <li>that helps you</li>

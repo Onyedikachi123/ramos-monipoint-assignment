@@ -5,7 +5,7 @@ import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
 const GetStarted = () => {
   return (
     <section className="get-started container text-center">
-      <div className="icon-wrapper">
+      <div className="icon-wrapper pop-out-text">
         <FontAwesomeIcon icon={faPaperclip} />
       </div>
       <h3 className="mb-2">Get Started</h3>
@@ -15,7 +15,7 @@ const GetStarted = () => {
       </p>
       <div className="button-group">
         <button className="ashBtn">Request a Demo</button>
-        <button className="redBtn">Start for free</button>
+        <button className="redBtn pop-in-button">Start for free</button>
       </div>
     </section>
   );

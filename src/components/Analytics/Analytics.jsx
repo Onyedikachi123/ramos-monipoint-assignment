@@ -18,7 +18,7 @@ const Analytics = () => {
           <div className="analytics-content-header">
             <div className="row">
               <div className="col-9">
-                <h3>
+                <h3 className="slide-in-text-bottom">
                   Your key to strategic <br /> success through analytics
                 </h3>
               </div>

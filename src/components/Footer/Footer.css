@@ -93,4 +93,19 @@
     width: 100px; 
   }
   
+  @keyframes popOut {
+    0%, 100% {
+      transform: scale(1); 
+      opacity: 1; 
+    }
+    50% {
+      transform: scale(1.2); 
+      opacity: 0.8; 
+    }
+  }
+  
+  .pop-out-text {
+    display: inline-block;
+    animation: popOut 0.5s ease-in-out forwards; 
+  }
  

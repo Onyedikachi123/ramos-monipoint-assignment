@@ -87,7 +87,6 @@
   position: absolute; 
   z-index: 2; 
   bottom: -487px; 
-  
   left: 50%; 
   transform: translateX(-50%);
 
@@ -96,6 +95,9 @@
   .footer svg {
     margin-right: 0.5rem;
   }
+
+  
+  
   
  
   

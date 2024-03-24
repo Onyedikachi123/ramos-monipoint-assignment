@@ -70,7 +70,7 @@ const MarqueeComponent = () => {
         </p>
         <div className="buttons-container">
           <button className="demo-button">Request a demo</button>
-          <button className="start-button">Start for free</button>
+          <button className="start-button pop-in-button">Start for free</button>
         </div>
       </div>
     </section>

@@ -38,7 +38,7 @@ const Footer = () => {
               <Link to="/privacy-policy">Privacy policy</Link>
               <Link to="/license-agreement">License agreement</Link>
             </div>
-            <div className='footer-qr'>
+            <div className='footer-qr pop-out-text'>
               <img src={QrCodeImage} alt="QR Code" />
             </div>
           </div>

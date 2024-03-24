@@ -7,7 +7,7 @@ const Monitoring = () => {
     <section className="monitoring">
       <div className="monitoring-content">
         <div className="container">
-          <div className="monitoring-content-header">
+          <div className="monitoring-content-header slide-in-text-bottom">
             <h3>
               We give you full <br /> <span>control</span> over your data
             </h3>
