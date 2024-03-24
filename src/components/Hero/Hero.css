@@ -1,0 +1,94 @@
+.hero {
+    height: 60vh;
+    padding-top: 6rem;
+}
+
+.hero .hero-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero .hero-content .hero-icon {
+    padding-left: 2rem;
+    display: flex;
+}
+.hero .hero-content img {
+    width: 250px;
+}
+.hero .hero-content .bolt-icon {
+    background-color: #f2f2f2;
+    /* color: #fe4a23; */
+  
+}
+
+.hero .hero-content .chart-icon {
+    background-color: #fe4a23;
+    /* color: #f2f2f2; */
+    margin-left: -10px;
+    
+
+}
+
+.hero .hero-content .bolt-icon,
+.hero .hero-content .chart-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding: 2rem; 
+}
+.hero .hero-content .bolt-icon .svg-inline--fa,
+.hero .hero-content .chart-icon .svg-inline--fa {
+    width: auto; 
+    height: auto; 
+}
+.hero .hero-content .hero-img .svg-inline--fa {
+    color: #fe4a23;
+    font-size: 2rem;
+    position: absolute;
+    top: 22%;
+    right: 25%;
+}
+
+.hero .hero-content .hero-text ul {
+    font-size: 8rem;
+    font-weight: 400;
+    margin-top: -25px;
+    list-style: none;
+}
+.hero .hero-content .hero-text li {
+    position: absolute;
+}
+
+.hero .hero-content .hero-text li:nth-child(1) {
+    left: 20%;
+    bottom: 60%;
+}
+.hero .hero-content .hero-text li:nth-child(2) {
+ left: 3%;
+ bottom: 45%;
+}
+
+.hero .hero-content .hero-text li:nth-child(3) {
+    left: 15%;
+    bottom: 28%;
+} 
+
+/* .hero .hero-content .hero-text li:nth-child(3) span {
+    background-color: #ffd027;
+    color: #1c1c1a;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding: 2rem; 
+} 
+.hero .hero-content .hero-text li:nth-child(3) span .svg-inline--fa {
+    font-size: 14px;
+} */

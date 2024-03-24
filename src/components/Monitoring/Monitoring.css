@@ -1,0 +1,12 @@
+.monitoring-content {
+    padding-top: 100px;
+}
+.monitoring-content-header h3 {
+    font-size: 6rem;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.monitoring-content-header h3 span {
+    color: #cccccc;
+}
